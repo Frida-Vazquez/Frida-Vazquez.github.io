@@ -1,0 +1,76 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #2F3645;
+}
+
+header span{
+    color: #FCF8F3;
+}
+
+.nav-item a{
+    color: #FCF8F3;
+}
+
+/*Link visitado*/
+.nav-item a:visited{
+    color:#E6B9A6
+}
+
+.nav-item a:hover{
+    color: #FFD3B6;
+}
+
+#nav-button{
+    background-color: #E6B9A6;
+}
+
+.icon-square .bi{
+    background-color: #DCA47C;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4px;
+}
+
+.img-proyecto1{
+    background-image: url('/assets/pinterest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-proyecto1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.img-proyecto1 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;  
+}
+
+.img-proyecto2{
+    background-image: url('/assets/pinterest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-proyecto3{
+    background-image: url('/assets/pinterest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
