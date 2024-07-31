@@ -2,6 +2,18 @@
     font-family: "Roboto", sans-serif;
 }
 
+#button1{
+    color: #DCA47C;
+    border-radius: 30px;
+    font-weight: 400;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#button1:hover {
+    color: #FFFFFF; /* Cambia el color del texto al pasar el ratón */
+    background-color: #DCA47C; /* Cambia el color de fondo al pasar el ratón */
+}
+
 header{
     background-color: #2F3645;
 }
@@ -40,7 +52,7 @@ header span{
 
 .img-proyecto1{
     background-image: url('/assets/pinterest.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -62,10 +74,32 @@ header span{
     z-index: 2;  
 }
 
+#titulo{
+    color: #FFD3B6;
+}
+
 .img-proyecto2{
-    background-image: url('/assets/pinterest.png');
-    background-size: contain;
+    background-image: url('/assets/simulacion.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-proyecto2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.img-proyecto2 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;  
 }
 
 .img-proyecto3{
@@ -73,4 +107,30 @@ header span{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#contacto{
+    color: #DCA47C;
+    border-radius: 30px;
+    font-weight: 400;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#contacto{
+    color: #DCA47C; /* Cambia el color del texto al pasar el ratón */
+  
+}
+
+footer{
+    background-color: #FFD3B6;
+}
+
+footer .icon-footer i{
+    color: #698474;
+}
+
+footer p{
+    color: #698474;
+}
+
+
 

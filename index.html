@@ -15,6 +15,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+   <!--Icono de la pagina--> 
+    <link rel="shortcut icon" href="/assets/file-code.svg" type="image/x-icon">
 
   <!--Link de iconos bootstrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -33,7 +35,8 @@
     </a>
 
     <ul class="nav nav-pills">
-      <li class="nav-item"><a id="nav-button" href="#sobre-mi" class="nav-link active" aria-current="page">Inicio</a></li>
+      <li class="nav-item"><a id="nav-button" href="#sobre-mi" class="nav-link active" aria-current="page">Inicio</a>
+      </li>
       <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
       <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
       <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
@@ -45,12 +48,17 @@
       <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4 rounded-circle" src="/assets/img.jpeg" alt="Foto de perfil" width="200">
         <h1 class="display-5 fw-bold text-body-emphasis">Frida Monserrat Vázquez de la Cruz</h1>
-        <h2>Ingeriera en sistemas | Desarrolladora Front-end Jr </h2>
+        <h2>Ingeniera en sistemas | Desarrolladora Front-end Jr </h2>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Estudio Ingeniería en Sistemas Computacionales, una disciplina que combina la informática y la ingeniería para desarrollar soluciones tecnológicas innovadoras. Me apasiona el diseño y la implementación de software, así como la resolución de problemas complejos mediante el uso de la programación y la tecnología avanzada. Siempre estoy en busca de nuevas oportunidades para aprender y mejorar mis habilidades en este campo dinámico y en constante evolución. 
+          <p class="lead mb-4">Estudio Ingeniería en Sistemas Computacionales, una disciplina que combina la informática
+            y la ingeniería para desarrollar soluciones tecnológicas innovadoras. Me apasiona el diseño y la
+            implementación de software, así como la resolución de problemas complejos mediante el uso de la programación
+            y la tecnología avanzada. Siempre estoy en busca de nuevas oportunidades para aprender y mejorar mis
+            habilidades en este campo dinámico y en constante evolución.
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi trayectoria</button>
+            <button id="button1" type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi
+              trayectoria</button>
           </div>
         </div>
       </div>
@@ -67,7 +75,9 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Desarrollo Front-end</h3>
-              <p>He desarrollado sitios web responsivos utilizando HTML, CSS y JavaScript, aplicando las habilidades adquiridas durante el bootcamp de Tecnolochicas PRO. Además, he implementado buenas prácticas de diseño y optimización para asegurar una excelente experiencia de usuario en diversos dispositivos.</p>
+              <p>He desarrollado sitios web responsivos utilizando HTML, CSS y JavaScript, aplicando las habilidades
+                adquiridas durante el bootcamp de Tecnolochicas PRO. Además, he implementado buenas prácticas de diseño
+                y optimización para asegurar una excelente experiencia de usuario en diversos dispositivos.</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
@@ -77,7 +87,8 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Estudiante</h3>
-              <p>Estudio Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México, Campus Tuxtla Gutiérrez, y actualmente estoy cursando el cuarto semestre.</p>
+              <p>Estudio Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México, Campus Tuxtla
+                Gutiérrez, y actualmente estoy cursando el cuarto semestre.</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
@@ -87,7 +98,9 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Trabajo en equipo</h3>
-              <p>Al trabajar en equipo, fomento la comunicación abierta y el apoyo mutuo, asegurando que todos los miembros contribuyan al éxito del proyecto. La sinergia generada por el trabajo en equipo no solo mejora los resultados, sino que también enriquece el proceso de desarrollo.</p>
+              <p>Al trabajar en equipo, fomento la comunicación abierta y el apoyo mutuo, asegurando que todos los
+                miembros contribuyan al éxito del proyecto. La sinergia generada por el trabajo en equipo no solo mejora
+                los resultados, sino que también enriquece el proceso de desarrollo.</p>
             </div>
           </div>
         </div>
@@ -103,10 +116,10 @@
           <div class="col">
             <div class="img-proyecto1 card card-cover h-55 overflow-hidden text-bg-white rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
-                <h3 class="pt-2 mt-4 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
+                <h3 id="titulo" class="pt-2 mt-4 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                    <img src="assets/pinterest_icon.png" alt="Pinterest" width="32" height="32"
                       class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
@@ -119,7 +132,6 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>HGJHFJ</small>
                   </li>
                 </ul>
               </div>
@@ -128,24 +140,24 @@
 
           <div class="col">
             <div class="img-proyecto2 card card-cover h-55 overflow-hidden text-bg-white rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white-shadow-1">
-                <h3 class="pt-2 mt-4 mb-4 display-6 lh-1 fw-bold" >Clon de Pinterest</h3>
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+                <h3 id="titulo" class="pt-2 mt-4 mb-4 display-6 lh-1 fw-bold">Simulación</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                    <img src="assets/logo-tec.png" alt="Pinterest" width="32" height="32"
                       class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Earth</small>
+                    <small>Proyecto desarrollado en Python para la verificación de números aleatorios en la materia de
+                      Simulación del Tecnológico.</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>3d</small>
                   </li>
                 </ul>
               </div>
@@ -153,25 +165,24 @@
           </div>
 
           <div class="col">
-            <div class="img-proyecto3 card card-cover h-55 overflow-hidden text-bg-white rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-danger-shadow-1">
-                <h3 class="pt-2 mt-4 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
+            <div class="img-proyecto1 card card-cover h-55 overflow-hidden text-bg-white rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+                <h3 id="titulo" class="pt-2 mt-4 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                    <img src="assets/pinterest_icon.png" alt="Pinterest" width="32" height="32"
                       class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Earth</small>
+                    <small>Proyecto creado en el bootcamp de Tecnolochicas PRO. Mediante HTML y CSS</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>3d</small>
                   </li>
                 </ul>
               </div>
@@ -183,73 +194,76 @@
     </section>
 
     <section id="testimonios" class="mt-5">
-      <h2 class="px-5 py-4 my-4 pb-2 border-bottom fw-bold">Testimonios</h2>
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner ">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Testimonios</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner ">
 
-          <!--Card carrusel-->
-          <div class="carousel-item active">
-            <div class="d-flex justify-content-center">
-            <div class="card border-0" style="width: 18rem;">
-              <img src="assets/raul.jpeg" class="rounded-circle card-img-top" alt="testimonios">
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Raúl Chavarria</h5>
-                <div class="card-header">Compañero de clase</div>
-                <p class="card-text text-center">Es un placer escribir este testimonio sobre mi compañera Frida. Desde que comenzamos a estudiar Ingeniería en Sistemas Computacionales, su desempeño ha sido excepcional. Frida es organizada, responsable y trabaja bien bajo presión.</p>
+            <!--Card carrusel-->
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/raul.jpeg" class="rounded-circle card-img-top" alt="testimonios">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-center">Raúl Chavira</h5>
+                    <div class="card-header">Compañero de clase</div>
+                    <p class="card-text text-center">Es un placer escribir este testimonio sobre mi compañera Frida.
+                      Desde que comenzamos a estudiar Ingeniería en Sistemas Computacionales, su desempeño ha sido
+                      excepcional. Frida es organizada, responsable y trabaja bien bajo presión.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
-        </div>
 
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-          <div class="card border-0" style="width: 18rem;">
-            <img src="assets/raul.jpeg" class="rounded-circle card-img-top" alt="testimonios">
-            <div class="card-body text-center">
-              <h5 class="card-title text-center">Raúl Chavarria</h5>
-              <div class="card-header">Compañero de clase</div>
-              <p class="card-text text-center">Es un placer escribir este testimonio sobre mi compañera Frida. Desde que comenzamos a estudiar Ingeniería en Sistemas Computacionales, su desempeño ha sido excepcional. Frida es organizada, responsable y trabaja bien bajo presión.</p>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/gael.jpeg" class="rounded-circle card-img-top" alt="testimonios">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-center">Gael Estrada</h5>
+                    <div class="card-header">Compañero de clase</div>
+                    <p class="card-text text-center">Este testimonio lo escribo para comentar como ha sido mi
+                      experiencia trabajando con mi compañera Frida, me complace decir que mi colaboradora es una
+                      excelente colaboradora y siempre esta dispuesta a aportar conocimientos a los proyectos, siempre
+                      se prepara con anticipación para las siguientes etapas de los trabajos, lo cual la ha hecho una
+                      pieza fundamental de cada uno de ellos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/cris.jpeg" class="rounded-circle card-img-top" alt="testimonios">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-center">Cristian Vázquez</h5>
+                    <div class="card-header">Compañero de clase</div>
+                    <p class="card-text text-center">d</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="d-flex justify-content-center">
-        <div class="card border-0" style="width: 18rem;">
-          <img src="assets/raul.jpeg" class="rounded-circle card-img-top" alt="testimonios">
-          <div class="card-body text-center">
-            <h5 class="card-title text-center">Raúl Chavarria</h5>
-            <div class="card-header">Compañero de clase</div>
-            <p class="card-text text-center">Es un placer escribir este testimonio sobre mi compañera Frida. Desde que comenzamos a estudiar Ingeniería en Sistemas Computacionales, su desempeño ha sido excepcional. Frida es organizada, responsable y trabaja bien bajo presión.</p>
-          </div>
         </div>
-        </div>
-    </div>
       </div>
     </section>
 
     <section id="contacto">
       <div class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
-          <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+          <i class="bi bi-envelope-heart" style="font-size: 100px; color: #2F3645;"></i>
+          <h1 class="text-body-emphasis">¡Contáctame!</h1>
           <p class="col-lg-8 mx-auto fs-5 text-muted">
-            This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a
-            responsive <code>.col-*</code> class, and a customized call to action.
+            Contactame para iniciar un proyecto.
           </p>
           <div class="d-inline-flex gap-2 mb-5">
-            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-              Call to action
-              <svg class="bi ms-2" width="24" height="24">
-                <use xlink:href="#arrow-right-short"></use>
-              </svg>
-            </button>
-            <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
-              Secondary link
-            </button>
+            <a href="mailto:fridamonsevazquez21@gmail.com">
+              <button id="contacto" class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                Contacto
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -257,14 +271,12 @@
   </main>
 
   <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item"><a href="https://github.com/Frida-Vazquez" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-github"></i></a></li>
+      <li class="nav-item"><a href="https://mx.linkedin.com/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-linkedin"></i></a></li>
+      <li class="nav-item"><a href="https://www.instagram.com/frida._.vazquez_?igsh=a3k0cDlkeG5xcXh6" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-instagram"></i></a></li>
     </ul>
-    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <p class="text-center">Creado por Frida Vazquez</p>
   </footer>
 
 
