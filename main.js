@@ -12,6 +12,5 @@ typewriter.typeString('Ingeniera en sistemas | Desarrolladora Front-end Jr')
     .typeString('¡Si lo puedes imaginar, lo puedes programar!')
     .pauseFor(2500)
     .deleteChars(6)
-    .typeString('<strong> programar!</strong>')
     .pauseFor(2500)
     .start();
